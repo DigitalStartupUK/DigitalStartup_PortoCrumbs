@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Catalog\Block\Product\View">
+	    <plugin name="add_catalog_breadcrumb_block" type="DigitalStartup\PortoCrumbs\Plugin\Catalog\Block\Product\View" />
+	</type>
+</config>
